@@ -24,7 +24,7 @@ public class templateSteps {
     }
 
     @When("^I fill \"([^\"]*)\" with \"([^\"]*)\"$")
-    public void i_click_on(String field, String value) throws Throwable {
+    public void i_fill(String field, String value) throws Throwable {
         $(By.id(field)).setValue(value);
     }
 
