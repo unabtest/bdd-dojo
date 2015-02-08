@@ -11,6 +11,6 @@ Scenario:
 	
 Scenario:
 	Given ingreso a la tienda virtual
-	When ingrese mi usuario "aliCate" y mi password "123457890"
+	When ingrese mi usuario "AliCate" y mi password "123456789"
 	And hago login
 	Then debo ver "Bienvenido a Ananzon, aliCate"
